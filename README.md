@@ -1,8 +1,8 @@
-
+# 🎰 Slot Machine Strategy Simulator
 
 An interactive Monte Carlo simulation of slot machine betting strategies built with Python, OOP, and Streamlit.
 
-##  Features
+## 📌 Features
 
 - Run simulations for:
   - 🎯 Flat Betting
@@ -13,20 +13,12 @@ An interactive Monte Carlo simulation of slot machine betting strategies built w
 - Interactive sliders for config
 - Hosted on Streamlit Cloud 🌐
 
-##  Try It Live
- [Launch the App](https://yourusername-yourrepo.streamlit.app) ← update this after deployment
+## 🚀 Try It Live
+👉 [Launch the App](https://yourusername-yourrepo.streamlit.app)
 
-##  Tech Stack
+## 📦 Tech Stack
 - Python 3.11
 - Streamlit
 - Matplotlib
 - Object-Oriented Programming
 - Monte Carlo Simulation
-
-##  What You’ll Learn
-- Risk modeling and bankroll analysis
-- Betting system behavior (Martingale, Fibonacci, etc.)
-- Data visualization and real-world simulations
-- Web app deployment without frontend code
-
----
