@@ -14,7 +14,7 @@ An interactive Monte Carlo simulation of slot machine betting strategies built w
 - Hosted on Streamlit Cloud 🌐
 
 ## 🚀 Try It Live
-👉 [Launch the App]([https://yourusername-yourrepo.streamlit.app](https://slot-machine-monte-carlo.streamlit.app/))
+👉 [Launch the App][https://yourusername-yourrepo.streamlit.app](https://slot-machine-monte-carlo.streamlit.app/)
 
 ## 📦 Tech Stack
 - Python 3.11
