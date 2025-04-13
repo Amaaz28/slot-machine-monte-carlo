@@ -21,7 +21,7 @@ else:
     print("Invalid strategy.")
     exit()
 
-# THIS LINE MUST BE HERE BEFORE .run() IS CALLED
+
 sim = Simulation(strategy=strategy, num_spins=num_spins, starting_balance=starting_balance)
 
 # Step 3: Run simulation
