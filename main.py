@@ -1,6 +1,9 @@
 from slot_Machine import SlotMachine
 from player import Player
 
+#defines a 3X3 slot machine
+#each symbol is a payout multiplier
+
 ROWS = 3
 COLS = 3
 SYMBOL_COUNT = {
@@ -21,6 +24,7 @@ class Game:
         self.slot_machine = SlotMachine(ROWS, COLS, SYMBOL_COUNT, SYMBOL_VALUES)
         self.player = Player()
 
+    #starts by asking the player to deposit money
     def play(self):
         self.player.deposit()
 
@@ -30,6 +34,7 @@ class Game:
             if choice == "q":
                 break
 
+            #player chooses how many lines to bet on and bet per line
             lines = self.player.get_number_of_lines()
             bet = self.player.get_bet()
             total_bet = bet * lines
