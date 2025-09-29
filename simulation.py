@@ -2,6 +2,7 @@ from slot_Machine import SlotMachine
 from strategy.flat import FlatBettingStrategy
 
 class Simulation:
+    #The constructor makes the simulation flexible. You can pass in any strategy without changing the code
     def __init__(self, strategy, num_spins, starting_balance):
         self.strategy = strategy
         self.num_spins = num_spins
@@ -23,6 +24,7 @@ class Simulation:
     def run(self):
         history = []
 
+        #loops over number of spins
         for _ in range(self.num_spins):
             bet = self.strategy.get_next_bet(None)
 
@@ -33,6 +35,7 @@ class Simulation:
 
             winnings, _ = self.machine.check_winnings(columns, lines=1, bet=bet)
 
+            #checks winnings and tracks win or lose streaks
             self.balance += winnings
             if winnings > 0:
                 self.total_wins += 1
